@@ -27,7 +27,7 @@ function App() {
   });
 
   return (
-    <TonConnectUIProvider manifestUrl="https://macintosch20.github.io/raptor/tonconnect-mainfest.json">
+    <TonConnectUIProvider manifestUrl="https://macintosch20.github.io/frontend-example/tonconnect-mainfest.json">
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
